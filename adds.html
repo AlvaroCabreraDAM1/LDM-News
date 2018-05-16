@@ -1,5 +1,5 @@
 <!DOCTYPE htmL>
-<html>
+<html lang="es" style="height: 600px; width: 300px; margin: 0; padding: 0;">
 
     <head>
 
@@ -15,27 +15,25 @@
         <script>
             var addToShow = 0;
             var interval;
-
             $(document).ready(function(){
-            interval = setInterval(showAdds, 5000);    
+				interval = setInterval(showAdds, 5000);    
             });
-
             function showAdds() {
-            if (addToShow == 2) {
-            addToShow = 0;
-            } else {
-            addToShow ++;
-            }
-            $("#imgAdd").attr("src", "img/adds/" + addToShow + ".jpg");   
+				if (addToShow == 2) {
+					addToShow = 0;
+				} else {
+					addToShow ++;
+				}
+				$("#imgAdd").attr("src", "img/adds/" + addToShow + ".jpg");   
             };
         </script>
 
     </head>
 
-    <body style="margin:0; padding:0;">
+    <body style="height: 600px; width: 300px; margin: 0; padding: 0;">
 
         <a href="adds.html" target="_blank">  
-            <img id="imgAdd" src="img/adds/0.jpg" alt="Add"/>
+            <img id="imgAdd" src="img/adds/0.jpg" alt="Add" style="height: 600px; width: 300px;"/>
         </a>
 
     </body>
