@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(104, 160, 96, 255);
+}
+
+.jumbotron {	
+    height: 250px;
+    width: 100%;
+    position: fixed;	
+}
+
+#jumbotron-background-1 {	
+    background-image: url(../img/jumbotron-background-1.png);
+    background-repeat: repeat;	
+}
+
+.navbar {
+    width: 100%;
+    margin-top: 250px;
+    background: linear-gradient(rgba(104, 160, 96, 255) 80%, rgba(104, 160, 96, 0));
+    position: fixed;
+    border: 0;
+    border-radius: 0;
+}
+
+#title {	
+    font-family: Indie Flower;
+    font-style: oblique;
+    color: rgba(160, 224, 88, 255);
+    font-size: 200%;	
+}
+
+.nav {	
+    float: right;	
+}
+
+.icon {	
+    color: rgba(160, 224, 88, 255);
+    font-size: 150%;	
+}
+
+#content, #add { 
+    float:left;
+    margin-top: 310px;  
+}
+
+#content {
+    width: calc(100% - 310px); 
+}
+
+.new {
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 5px;
+    border-color: rgba(160, 224, 88, 255);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgba(160, 224, 88, 255);
+    color: black; 
+}
+
+.newData, .newDescription {
+    float: left;
+}
+
+.newData  {
+    padding: 0;
+    padding-left: 0;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.newDescription {
+    width: calc(100% - 290px); 
+}
+
+.newTitle {
+    font-size: 150%; 
+}
+
+#loadButton {
+	background-color: rgba(175, 229, 89, 1); 
+	border-color: rgba(175, 229, 89, 1);
+	color: black;
+}
+
+#add {   
+    height: 600px;
+    width: 300px;
+    border: 0;
+}
