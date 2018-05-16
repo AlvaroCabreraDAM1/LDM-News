@@ -9,13 +9,13 @@
         <title>Pokemon Tera News</title>
         <link rel="icon" href="img/latios.ico">
 
+		<!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
         <!-- Bootstrap --> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- JQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
         <!-- Font Awsome Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -26,13 +26,20 @@
         <!-- Page CSS & JavaScript -->
         <link rel="stylesheet" href="css/news.css"/>
         <script src="js/news.js"></script>
+		
+		<!-- Facebook -->
+		<meta property="og:site_name" content="Pokemon Tera: Pokemon news">
+		<meta property="og:url" content="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/news.html">
+		<meta property="og:title" content="Pokemon Tera">
+		<meta property="og:image" content="">
+		<meta property="og:description" content="En Pokemon Tera encontrarás las más recientes noticias del mundo de Pokémon, además de guías, trucos, buscador de batallas y más.">
 
     </head>
 
     <body> 
 
         <!-- Jumbotron -->
-        <div class="jumbotron container-fluid" id="jumbotron-background-1">
+        <div class="container-fluid" id="jumbotron-background-1">
             <h1></h1>      
             <p></p>
         </div>
@@ -43,8 +50,10 @@
                 <a class="navbar-brand" id="title" href="#">Pokemon Tera</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a><i title="Desactivada" class="fas fa-toggle-off toggle icon" id="toggleOff" data-placement="bottom"></i></a></li>
-                <li><a><i title="Activada" class="fas fa-toggle-on toggle icon" id="toggleOn"  data-placement="bottom"></i></a></li>
+				<li>
+					<a><i title="Activada" class="fas fa-toggle-on toggle icon" id="toggleOn"  data-placement="left"></i>
+					<i title="Desactivada" class="fas fa-toggle-off toggle icon" id="toggleOff" data-placement="left"></i></a>
+				</li>
                 <li><a><i class="fab fa-twitter icon"></i></a></li>
                 <li><a href=https://discord.gg/u85fXP><i class="fab fa-discord icon"></i></a></li>
                 <li><a href=https://github.com/AlvaroCabreraDAM1/Pagina-Noticias><i class="fab fa-github icon"></i></a></li>
@@ -55,135 +64,101 @@
         <!-- Page Content -->
         <div class="container-fluid" id="content">
 
-            <!-- New 1 -->
+			<!-- New 1 -->
             <div class="row new">
                 <div class="newData">
                     <div class="well well-sm">
-                        19/04/2018
+                        16/05/2018
                     </div>
-                    <img src="img/news/Lorem-Ipsum.png" class="img-rounded" alt=""/>
+                    <img src="https://i1.wp.com/www.cpokemon.com/wp-content/uploads/2018/04/Screenshot_20180408-191437_YouTube-Vanced.jpg?ssl=1&resize=300%2C170&zoom=2" class="img-rounded newImg" alt=""/>
                 </div>
                 <div class="newDescription">
                     <p class="newTitle"><b>
-                            Lorem ipsum!
+                        Zeraora, el Pokémon #807, es oficialmente revelado en el tráiler de la próxima película
                         </b></p>
                     <p align="justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                        Duis venenatis velit et metus. Duis lacinia leo in velit. 
-                        Sed tristique. Sed id turpis malesuada nulla bibendum 
-                        iaculis. In nec velit. Fusce augue diam, sollicitudin eu, 
-                        porttitor vel, euismod vel, nisl. Aenean venenatis quam eu 
-                        massa. Pellentesque non lorem non tortor placerat vulputate. 
-                        Maecenas eleifend nibh ut lectus. Morbi eget eros. Sed 
-                        luctus porta justo. Fusce eget est eu elit suscipit cursus. 
-                        Duis a arcu et diam suscipit facilisis. Pellentesque 
-                        lobortis libero et metus.
+                        Durante la transmisión del programa japonés Oha Suta, se ha revelado un nuevo tráiler de la película de Pokémon: La historia de todos. En el mismo se ha revelado un nuevo Pokémon llamado Zeraora, el último singular de la séptima generación. <br><br> Zeraora es el Pokémon #807 y es de tipo Eléctrico. Clasificado como el Pokémon Tronido cuenta con la habilidad Absorbe Electricidad.
                     </p>
-                    <p>
-                        Read more
-                    </p>
+                    <a href="">
+                        Leer mas...
+                    </a>
                 </div>
             </div>
-            
-            <!-- New 2 -->
+			
+			<!-- New 2 -->
             <div class="row new">
-                <div class="newData">
+			    <div class="newData">
                     <div class="well well-sm">
-                        19/04/2018
+                        12/05/2018
                     </div>
-                    <img src="img/news/Lorem-Ipsum.png" class="img-rounded" alt=""/>
+                    <img src="https://i1.wp.com/www.cpokemon.com/wp-content/uploads/2018/02/20180226_192015.jpg?ssl=1&resize=300%2C170&zoom=2" class="img-rounded newImg" alt=""/>
                 </div>
                 <div class="newDescription">
                     <p class="newTitle"><b>
-                            Lorem ipsum!
+                        Revelado el nuevo tráiler de la película “Pokémon: La historia de todos”
                         </b></p>
                     <p align="justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                        Duis venenatis velit et metus. Duis lacinia leo in velit. 
-                        Sed tristique. Sed id turpis malesuada nulla bibendum 
-                        iaculis. In nec velit. Fusce augue diam, sollicitudin eu, 
-                        porttitor vel, euismod vel, nisl. Aenean venenatis quam eu 
-                        massa. Pellentesque non lorem non tortor placerat vulputate. 
-                        Maecenas eleifend nibh ut lectus. Morbi eget eros. Sed 
-                        luctus porta justo. Fusce eget est eu elit suscipit cursus. 
-                        Duis a arcu et diam suscipit facilisis. Pellentesque 
-                        lobortis libero et metus.
+                        El nuevo tráiler de la próxima película de Pokémon ha sido revelado. La película se titulará “Pokémon: La historia de todos” (みんなの物語). <br><br> Ash y un nuevo grupo de amigos se encontrará con el Pokémon legendario Lugia.
                     </p>
-                    <p>
-                        Read more
-                    </p>
+                    <a href="">
+                        Leer mas...
+                    </a>
                 </div>
             </div>
-            
+		
             <!-- New 3 -->
             <div class="row new">
                 <div class="newData">
                     <div class="well well-sm">
-                        19/04/2018
+                        10/05/2018
                     </div>
-                    <img src="img/news/Lorem-Ipsum.png" class="img-rounded" alt=""/>
+                    <img src="https://www.cpokemon.com/wp-content/uploads/2018/05/Pokemon-Lets-Go.jpg" class="img-rounded newImg" alt=""/>
                 </div>
                 <div class="newDescription">
                     <p class="newTitle"><b>
-                            Lorem ipsum!
+                            Filtrados Pokémon Let’s Go! Pikachu y Pokémon Let’s Go! Eevee: juegos principales para Switch
                         </b></p>
                     <p align="justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                        Duis venenatis velit et metus. Duis lacinia leo in velit. 
-                        Sed tristique. Sed id turpis malesuada nulla bibendum 
-                        iaculis. In nec velit. Fusce augue diam, sollicitudin eu, 
-                        porttitor vel, euismod vel, nisl. Aenean venenatis quam eu 
-                        massa. Pellentesque non lorem non tortor placerat vulputate. 
-                        Maecenas eleifend nibh ut lectus. Morbi eget eros. Sed 
-                        luctus porta justo. Fusce eget est eu elit suscipit cursus. 
-                        Duis a arcu et diam suscipit facilisis. Pellentesque 
-                        lobortis libero et metus.
+                        Han pasado 11 meses desde que un juego principal de Pokémon para Nintendo Switch fue confirmado en desarrollo durante el pasado E3. Finalmente hoy los juegos potencialmente han salido a la luz, aunque quizás no de la manera que Nintendo o Game Freak hubiesen querido. <br><br> Gracias a múltiples fuentes confiables en la industria se han revelado algunos detalles acerca de Pokémon Switch. Los nombres de los juegos serán Pokémon Let’s Go! Pikachu y Pokémon Let’s Go! Eevee y serán lanzados este año. Se tratan de remakes de Pokémon Amarillo.
                     </p>
-                    <p>
-                        Read more
-                    </p>
+                    <a href="">
+                        Leer mas...
+                    </a>
                 </div>
             </div>
-			
-			<!-- New 4 -->
+            
+            <!-- New 4 -->
             <div class="row new">
-			    <div class="newData">
+                <div class="newData">
                     <div class="well well-sm">
-                        19/04/2018
+                        07/05/2018
                     </div>
-                    <img src="img/news/Lorem-Ipsum.png" class="img-rounded" alt=""/>
+                    <img src="https://www.cpokemon.com/wp-content/uploads/2018/05/nishino-nishida-sugimori-830x414.jpg" class="img-rounded newImg" alt=""/>
                 </div>
                 <div class="newDescription">
                     <p class="newTitle"><b>
-                            Lorem ipsum!
+                            Originalmente Pikachu iba a tener una segunda evolución con colmillos y cuernos llamada “Gorochu”
                         </b></p>
                     <p align="justify">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                        Duis venenatis velit et metus. Duis lacinia leo in velit. 
-                        Sed tristique. Sed id turpis malesuada nulla bibendum 
-                        iaculis. In nec velit. Fusce augue diam, sollicitudin eu, 
-                        porttitor vel, euismod vel, nisl. Aenean venenatis quam eu 
-                        massa. Pellentesque non lorem non tortor placerat vulputate. 
-                        Maecenas eleifend nibh ut lectus. Morbi eget eros. Sed 
-                        luctus porta justo. Fusce eget est eu elit suscipit cursus. 
-                        Duis a arcu et diam suscipit facilisis. Pellentesque 
-                        lobortis libero et metus.
+                        El sitio web, Siliconera, ha traducido más comentarios de la entrevista de Yomiuri Shimbun con los ilustradores de Pokémon, Ken Sugimori, Atsuko Nishida y Koji Nishino. Los tres se enfocaron con profundidad sobre Pikachu, incluyendo el porqué es más bien un personaje raro de encontrar, una evolución llamada Gorochu y otras cosillas más. <br><br> A continuación algunas cosas interesantes de los extractos
                     </p>
-                    <p>
-                        Read more
-                    </p>
+                    <a href="">
+                        Leer mas...
+                    </a>
                 </div>
             </div>
-			
+            			
 			<!-- Loaded news -->
 			<div id="loadedNews">
 			
-			<div>
+			</div>
 			
-			<!-- load button -->
+			<!-- Load button -->
 			<div align="center"> 
 				<button type="button" id="loadButton" class="btn btn-success">Cargar mas...</button>
 			</div>
+			
+			<br>
 			
         </div>
 

@@ -7,12 +7,13 @@ html, body {
 }
 
 .jumbotron {	
-    height: 250px;
-    width: 100%;
-    position: fixed;	
+	
 }
 
 #jumbotron-background-1 {	
+    height: 250px;
+    width: 100%;
+    position: fixed;
     background-image: url(../img/jumbotron-background-1.png);
     background-repeat: repeat;	
 }
@@ -30,7 +31,7 @@ html, body {
     font-family: Indie Flower;
     font-style: oblique;
     color: rgba(160, 224, 88, 255);
-    font-size: 200%;	
+    font-size: 300%;	
 }
 
 .nav {	
@@ -39,7 +40,16 @@ html, body {
 
 .icon {	
     color: rgba(160, 224, 88, 255);
-    font-size: 150%;	
+    font-size: 170%;	
+}
+
+.tooltip > .tooltip-inner {
+    background-color: rgba(160, 224, 88, 255);
+    color: black; 
+}
+
+.tooltip.left > .tooltip-arrow {
+    border-left: 5px solid rgba(160, 224, 88, 255);
 }
 
 #content, #add { 
@@ -72,6 +82,12 @@ html, body {
     padding-left: 0;
     width: 250px;
     margin-right: 20px;
+}
+
+.newImg {
+	
+	width: 250px;
+	
 }
 
 .newDescription {
