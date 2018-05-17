@@ -57,7 +57,7 @@ $(document).ready(function(){
 			$("#toggleOn").hide();
 			$("#toggleOff").show();
 			toggleOn = false;
-			$("#chargeButton").show();
+			$("#loadButton").show();
 		}
     });
 	

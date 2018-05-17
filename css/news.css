@@ -4,27 +4,23 @@ html, body {
     padding: 0;
     margin: 0;
     background-color: rgba(104, 160, 96, 255);
-}
-
-.jumbotron {	
-	
+	text-align:justify
 }
 
 #jumbotron-background-1 {	
     height: 250px;
     width: 100%;
-    position: fixed;
     background-image: url(../img/jumbotron-background-1.png);
     background-repeat: repeat;	
+	margin-bottom: 0;
 }
 
 .navbar {
-    width: 100%;
-    margin-top: 250px;
-    background: linear-gradient(rgba(104, 160, 96, 255) 80%, rgba(104, 160, 96, 0));
-    position: fixed;
+	width: 100%;
+	background: linear-gradient(rgba(104, 160, 96, 255) 80%, rgba(104, 160, 96, 0));
     border: 0;
     border-radius: 0;
+	margin-bottom: 0;
 }
 
 #title {	
@@ -43,6 +39,8 @@ html, body {
     font-size: 170%;	
 }
 
+/* Principal */
+
 .tooltip > .tooltip-inner {
     background-color: rgba(160, 224, 88, 255);
     color: black; 
@@ -52,9 +50,8 @@ html, body {
     border-left: 5px solid rgba(160, 224, 88, 255);
 }
 
-#content, #add { 
-    float:left;
-    margin-top: 310px;  
+#content, #add {
+	float:left;
 }
 
 #content {
@@ -85,9 +82,7 @@ html, body {
 }
 
 .newImg {
-	
 	width: 250px;
-	
 }
 
 .newDescription {
@@ -96,6 +91,11 @@ html, body {
 
 .newTitle {
     font-size: 150%; 
+	text-align: left;
+}
+
+#loadButtonContainer {
+	text-align: center;
 }
 
 #loadButton {
@@ -107,5 +107,17 @@ html, body {
 #add {   
     height: 600px;
     width: 300px;
+	overflow: hidden;
     border: 0;
+}
+
+/* Noticia */
+
+#newTitle, #newContent  {	
+	margin-left: 3%;
+	margin-right: 3%;	
+}
+
+#newTitle {
+	text-align: center;
 }
