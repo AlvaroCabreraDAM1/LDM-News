@@ -10,8 +10,10 @@ $(window).scroll(function () {
 
 function load() {
     if (loaded < 3) {
-        $.getJSON("https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/data/" + loaded + ".json", function (jsonObject) {
+		$("#loading").show();
+        $.getJSON("https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/data/u" + loaded + ".json", function (jsonObject) {
             addrow(jsonObject);
+			$("#loading").hide();
         }); loaded++;
     }
 };
@@ -46,6 +48,7 @@ $(document).ready(function(){
 	$("#toggleOn").tooltip();
     $("#toggleOff").tooltip();
 	$("#toggleOn").hide();
+	$("#loading").hide();
 	
     $(".toggle").click(function(){
 		if (toggleOn == false) {
