@@ -131,14 +131,74 @@ html, body {
 
 /* Adaptabilidad */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 968px){
+    
+}
+
+@media screen and (max-width: 967px){ 
+
+	.newData, .newDescription {
+		float: none;
+	}
+
+	.newData  {
+		padding: 0;
+		padding-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.newImg {
+	width: 100%;
+}
+
+	.newDescription {
+		margin-top: 15px;
+		width: 98%; 
+	}
     
 }
 
 @media screen and (max-width: 767px){
 	
+	#jumbotron-background-1 {	
+		height: 150px;
+	}
+	
+	.navbar {
+		position: fixed;
+		background: none;
+		padding-right: 1%;
+	}
+	
+	#title {
+		display: none;
+	}
+	
 	#content {
-		width: 98%; 
+		width: 96%; 
+		margin-top: 10px;
+	}
+	
+	.newData, .newDescription {
+		float: left;
+	}
+
+	.newData  {
+		padding: 0;
+		padding-left: 0;
+		width: 250px;
+		margin-right: 20px;
+	}
+	
+	.newImg {
+		width: 250px;
+	}
+
+	.newDescription {
+		width: calc(100% - 290px); 
+		font-size: 16px;
+		margin-top: 0px;
 	}
 	
     #add {   
@@ -147,6 +207,26 @@ html, body {
 	
 }
 
-@media screen and (max-width: 319px){ 
+@media screen and (max-width: 667px){ 
+
+	.newData, .newDescription {
+		float: none;
+	}
+
+	.newData  {
+		padding: 0;
+		padding-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.newImg {
+		width: 100%;
+	}
+
+	.newDescription {
+		margin-top: 15px;
+		width: 98%; 
+	}
     
 }
