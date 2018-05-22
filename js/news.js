@@ -11,7 +11,7 @@ $(window).scroll(function () {
 function load() {
     if (loaded < 3) {
 		$("#loading").show();
-        $.getJSON("https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/data/u" + loaded + ".json", function (jsonObject) {
+        $.getJSON("https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/data/" + loaded + ".json", function (jsonObject) {
             addrow(jsonObject);
 			$("#loading").hide();
         }); loaded++;
