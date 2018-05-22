@@ -6,7 +6,6 @@ html, body {
     background-color: rgba(104, 160, 96, 255);
 	text-align:justify
 }
-
 #jumbotron-background-1 {	
     height: 250px;
     width: 100%;
@@ -14,7 +13,6 @@ html, body {
     background-repeat: repeat;	
 	margin-bottom: 0;
 }
-
 .navbar {
 	width: 100%;
 	background: linear-gradient(rgba(104, 160, 96, 255) 80%, rgba(104, 160, 96, 0));
@@ -22,42 +20,54 @@ html, body {
     border-radius: 0;
 	margin-bottom: 0;
 }
-
 #title {	
     font-family: Indie Flower;
     font-style: oblique;
     color: rgba(160, 224, 88, 255);
     font-size: 300%;	
 }
-
 .nav {	
     float: right;	
 }
-
 .icon {	
     color: rgba(160, 224, 88, 255);
     font-size: 170%;	
 }
-
+#content, #add {
+	float:left;
+}
+#content {
+    width: calc(100% - 336px); 
+}
+#add {   
+    height: 600px;
+    width: 300px;
+	overflow: hidden;
+    border: 0;
+	margin-left: 10px;
+}
+#addM {   
+    height: 100px;
+    width: 320px;
+	overflow: hidden;
+    border: 0;
+}
+#addMContainer {   
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
 /* Principal */
-
 .tooltip > .tooltip-inner {
     background-color: rgba(160, 224, 88, 255);
     color: black; 
 }
-
 .tooltip.left > .tooltip-arrow {
     border-left: 5px solid rgba(160, 224, 88, 255);
 }
-
-#content, #add {
-	float:left;
-}
-
-#content {
-    width: calc(100% - 310px); 
-}
-
 .new {
     margin-bottom: 15px;
     margin-left: 0;
@@ -69,164 +79,146 @@ html, body {
     background-color: rgba(160, 224, 88, 255);
     color: black; 
 }
-
 .newData, .newDescription {
     float: left;
 }
-
 .newData  {
     padding: 0;
     padding-left: 0;
     width: 250px;
     margin-right: 20px;
 }
-
 .newImg {
 	width: 250px;
 }
-
 .newDescription {
     width: calc(100% - 290px); 
 	font-size: 16px;
 }
-
 .newTitle {
     font-size: 150%; 
 	text-align: left;
 }
-
 #loadButtonContainer {
 	text-align: center;
 }
-
 #loadButton {
 	background-color: rgba(175, 229, 89, 1); 
 	border-color: rgba(175, 229, 89, 1);
 	color: black;
 }
-
-#add {   
-    height: 600px;
-    width: 300px;
-	overflow: hidden;
-    border: 0;
-}
-
 /* Noticia */
-
 #newTitle, #newContent  {	
 	margin-left: 3%;
 	margin-right: 3%;	
 }
-
 #newTitle {
 	text-align: center;
 }
-
 #newContent {
-	
-	font-size: 18px;
-	
+	font-size: 18px;	
 }
-
 /* Adaptabilidad */
-
 @media screen and (min-width: 968px){
-    
+	#addMContainer {
+		display: none;	
+	}  
 }
-
 @media screen and (max-width: 967px){ 
-
 	.newData, .newDescription {
 		float: none;
 	}
-
 	.newData  {
 		padding: 0;
 		padding-left: 0;
 		width: 100%;
 		text-align: center;
 	}
-	
 	.newImg {
-	width: 100%;
-}
-
+		width: 100%;
+	}
 	.newDescription {
 		margin-top: 15px;
 		width: 98%; 
 	}
-    
+	#addMContainer {
+		display: none;		
+	}
+   
 }
-
 @media screen and (max-width: 767px){
-	
 	#jumbotron-background-1 {	
 		height: 150px;
+		background-position: 0px, 0px; 
 	}
-	
 	.navbar {
 		position: fixed;
 		background: none;
 		padding-right: 1%;
+		width: 40px;
+		right: 0px;
 	}
-	
+	.tooltip > .tooltip-inner {
+		display: none;
+	}
+	.tooltip.left > .tooltip-arrow {
+		display: none;
+	}
 	#title {
 		display: none;
 	}
-	
 	#content {
-		width: 96%; 
+		width: 95%; 
 		margin-top: 10px;
+		margin-bottom: 100px;
 	}
-	
 	.newData, .newDescription {
 		float: left;
 	}
-
 	.newData  {
 		padding: 0;
 		padding-left: 0;
 		width: 250px;
 		margin-right: 20px;
 	}
-	
 	.newImg {
 		width: 250px;
 	}
-
+	.modal-dialog, .modal-content, .modal-body {
+		background-color: rgba(0, 0, 0, 0);
+		border: 0;
+		padding: 0px;
+	}
+	.modal-header, .modal-footer {	
+		display: none;	
+	}
 	.newDescription {
 		width: calc(100% - 290px); 
 		font-size: 16px;
 		margin-top: 0px;
 	}
-	
     #add {   
 		display: none;
 	}
-	
+	#addMContainer {
+		display: block;		
+	}
 }
-
 @media screen and (max-width: 667px){ 
-
 	.newData, .newDescription {
 		float: none;
 	}
-
 	.newData  {
 		padding: 0;
 		padding-left: 0;
 		width: 100%;
 		text-align: center;
 	}
-	
 	.newImg {
 		width: 100%;
 	}
-
 	.newDescription {
 		margin-top: 15px;
 		width: 98%; 
-	}
-    
+	} 
 }
