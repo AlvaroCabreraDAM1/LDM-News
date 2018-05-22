@@ -1,0 +1,44 @@
+<!DOCTYPE htmL>
+<html lang="es">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <!-- Page Info -->
+        <title>Adds</title>
+
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- Show Adss --> 
+        <script>
+            var addToShow = 0;
+            var interval;
+            $(document).ready(function(){
+				interval = setInterval(showAdds, 5000);    
+            });
+            function showAdds() {
+				if (addToShow == 2) {
+					addToShow = 0;
+				} else {
+					addToShow ++;
+				}
+				$("#imgAdd").attr("src", "img/adds/" + addToShow + "M.jpg");   
+            };
+        </script>
+
+    </head>
+
+    <body>
+
+        <a href="adds.html" target="_blank">  
+            <img id="imgAdd" src="img/adds/0M.jpg" alt="Add"/>
+        </a>
+
+    </body>
+
+</html>

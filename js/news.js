@@ -14,7 +14,8 @@ function load() {
         $.getJSON("https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/data/" + loaded + ".json", function (jsonObject) {
             addrow(jsonObject);
 			$("#loading").hide();
-        }); loaded++;
+        }); 
+		loaded++;
     }
 };
 
@@ -26,7 +27,7 @@ function addrow(json) {
 				'<div class="well well-sm">' + 
 					item.date +
 				'</div>' +
-				'<img src="' + item.img + '" class="img-rounded newImg" alt="..." />' +
+				'<img src="' + item.imgMid + '" class="img-rounded newImg" id="' + item.imgId + '" data-toggle="modal" data-target="#newModal" alt="..."/>' +
 			'</div>' +	
             '<div class="newDescription">' + 
 				'<p class="newTitle"><b>' + 
@@ -80,5 +81,10 @@ $(document).ready(function(){
 	});
 	
 	$("#loadButton").click(function() {load();});
+	
+	$("body").on("click", ".newImg", function(){
+		var id = $(this).attr('id');
+		$("#modalImg").attr("src","img/news/new" + id + "Big.png");
+    });
 	
 });
