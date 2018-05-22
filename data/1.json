@@ -4,16 +4,19 @@
 	"imgBig": "img/news/new5Big.png",
 	"imgMid": "img/news/new5mid.png",	
 	"date": "08/05/2018",
+	"id": "5"
 }, {
 	"title": "Game Freak revela que Pikachu está basado en una ardilla, no en un ratón",
 	"description": "El medio japonés Yomiuri Shimbun ha tenido la oportunidad de entrevistar a Ken Sugimori y Atsuko Nishida, ambos diseñadores de Game Freak y por primera vez han revelado la historia del origen de Pikachu, la mascota de la franquicia. <br><br> Según afirmaron los desarrolladores, a Nishida se le asignó la tarea de diseñar un “monstruo lindo” que cumpliese dos condiciones: que fuera tipo Eléctrico y tuviera dos etapas evolutivas.",
 	"imgBig": "img/news/new6Big.png",
 	"imgMid": "img/news/new6mid.png",	
 	"date": "03/05/2018",
+	"id": "6"
 }, {
 	"title": "Zapdos será el próximo Legendario de las nuevas tareas de investigación de Pokémon GO",
 	"description": "En la cuenta oficial de Twitter, han anunciado que a habrá nuevas tareas de investigación a partir de mayo. <br><br> Desde el 1 de mayo a la 1:00 PM. PDT, una nueva serie de misiones estarán disponibles, centradas en Pokémon del tipo Volador y Eléctrico, confirmando a Zapdos como el próximo Pokémon Legendario disponible a través de esta característica.",
 	"imgBig": "img/news/new7Big.png",
 	"imgMid": "img/news/new7mid.png",	
 	"date": "25/04/2018",
+	"id": "7"
 }]
