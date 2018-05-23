@@ -1,7 +1,7 @@
 var loaded = 1;
 var toggleOn = false;
 var theme = 0;
-var manectricX = 100;
+var manectricX = $(window).width();
 
 $(window).scroll(function () {
     if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && toggleOn == true) {
@@ -49,9 +49,9 @@ function addrow(json) {
 };
 
 function manectric() {
-  $("#manectric").css("margin-left",  manectricX + "%");
-  if (manectricX < -50) {
-	  manectricX = 100
+  $("#manectric").css("margin-left",  manectricX + "px");
+  if (manectricX < -250) {
+	  manectricX = $(window).width();
   } else {
 	manectricX--; 
 	}
@@ -86,6 +86,6 @@ $(document).ready(function(){
 		$("#modalImg").attr("src","img/news/new" + id + "Big.png");
     });
 	
-	interval = setInterval(manectric, 100); 
+	interval = setInterval(manectric, 10); 
 	
 });
