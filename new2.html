@@ -23,14 +23,15 @@
         <!-- Google Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Indie%20Flower' rel='stylesheet'>
 
-        <!-- Page CSS -->
+        <!-- Page CSS & JavaScript -->
         <link rel="stylesheet" href="css/news.css"/>
+		<script src="js/news.js"></script>
 		
 		<!-- Facebook -->
 		<meta property="og:site_name" content="Pokemon Tera: Pokemon news">
 		<meta property="og:url" content="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/news.html">
 		<meta property="og:title" content="Pokemon Tera">
-		<meta property="og:image" content="">
+		<meta property="og:image" content="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/portada.png">
 		<meta property="og:description" content="En Pokemon Tera encontrarás las más recientes noticias del mundo de Pokémon, además de guías, trucos, buscador de batallas y más.">
 
     </head>
@@ -38,7 +39,8 @@
 	<body>
 
         <!-- Jumbotron -->
-        <div class="container-fluid jumbotron" id="jumbotron-background">
+        <div class="container-fluid jumbotron" id="jumbotron">
+			<img src="img/manectric.gif" id="manectric" alt=""/>
         </div>
 
         <!-- Navbar -->
@@ -47,6 +49,7 @@
                 <a class="navbar-brand" id="title" href="news.html">Pokemon Tera</a>
             </div>
             <ul class="nav navbar-nav">
+				<li><a href="news.html"><i class="fas fa-home icon" id="home"></i></a></li>
                 <li><a><i class="fab fa-twitter icon"></i></a></li>
                 <li><a href=https://discord.gg/u85fXP><i class="fab fa-discord icon"></i></a></li>
                 <li><a href=https://github.com/AlvaroCabreraDAM1/LDM-News><i class="fab fa-github icon"></i></a></li>
