@@ -6,12 +6,16 @@ html, body {
     background-color: rgba(104, 160, 96, 255);
 	text-align:justify
 }
-#jumbotron-background-1 {	
+#jumbotron {	
     height: 250px;
     width: 100%;
-    background-image: url(../img/jumbotron-background-1.png);
+    background-image: url(../img/jumbotron-background.png);
     background-repeat: repeat;	
 	margin-bottom: 0;
+}
+#manectric {
+	margin-top: 120px;
+	margin-left: 100%;
 }
 .navbar {
 	width: 100%;
