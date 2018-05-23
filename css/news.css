@@ -125,11 +125,17 @@ html, body {
 }
 /* Adaptabilidad */
 @media screen and (min-width: 968px){
+	#home {
+		display: none;
+	}
 	#addMContainer {
 		display: none;	
 	}  
 }
-@media screen and (max-width: 967px){ 
+@media screen and (max-width: 967px){
+	#home {
+		display: none;
+	}
 	.newData, .newDescription {
 		float: none;
 	}
@@ -158,13 +164,16 @@ html, body {
 	}
 	#manectric {
 	margin-top: 138px;
-}
+	}
 	.navbar {
 		position: fixed;
 		background: none;
 		padding-right: 1%;
 		width: 40px;
 		right: 0px;
+	}
+	#home {
+		display: block;
 	}
 	.tooltip > .tooltip-inner {
 		display: none;
