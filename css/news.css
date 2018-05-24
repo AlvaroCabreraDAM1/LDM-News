@@ -36,7 +36,8 @@ a:link, a:hover a, a:visited, a:active {
     font-style: oblique;
     color: rgba(160, 224, 88, 255);
     font-size: 150%;
-	padding: 0;	
+	padding: 0;
+	margin-left: 10px;
 }
 .nav {	
     float: right;	
@@ -173,13 +174,13 @@ a:link, a:hover a, a:visited, a:active {
 	#manectric {
 		display: none;
 	}
-	.navbar {
+	.nav {
 		position: fixed;
 		background: none;
 		padding-right: 1%;
 		width: 40px;
-		right: 0px;
-		top: 180px;
+		right: 20px;
+		top: 200px;
 	}
 	#home {
 		display: block;
@@ -191,7 +192,7 @@ a:link, a:hover a, a:visited, a:active {
 		display: none;
 	}
 	#title {
-		display: none;
+		font-size: 110%;
 	}
 	#content {
 		width: 95%; 
