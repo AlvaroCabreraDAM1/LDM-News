@@ -171,7 +171,7 @@ a:link, a:hover a, a:visited, a:active {
 		background-position: 0px, 0px; 
 	}
 	#manectric {
-	margin-top: 138px;
+		display: none;
 	}
 	.navbar {
 		position: fixed;
@@ -195,7 +195,6 @@ a:link, a:hover a, a:visited, a:active {
 	}
 	#content {
 		width: 95%; 
-		margin-top: 10px;
 		margin-bottom: 100px;
 	}
 	.newData, .newDescription {
@@ -230,7 +229,10 @@ a:link, a:hover a, a:visited, a:active {
 		display: block;		
 	}
 }
-@media screen and (max-width: 667px){ 
+@media screen and (max-width: 667px){
+	#manectric {
+		display: none;
+	}
 	.newData, .newDescription {
 		float: none;
 	}
