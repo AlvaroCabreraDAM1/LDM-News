@@ -6,21 +6,24 @@
 		<title>Pokemon Tera</title>
 		<link>https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/news.html</link>
 		<description>Noticias, resultados y estadisticas de futbol</description>
+		<image>
+			<url>https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/portada.png</url>
+			<title>Pokemon Tera</title>
+			<link>https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/news.html</link>
+		</image>
 
 		<item>
-			<title>Zeraora, el Pokémon #807, es oficialmente revelado</title>
 			<link>https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/new1.html</link>
-			<description>
-				 Durante la transmisión del programa japonés Oha Suta, se ha revelado un nuevo tráiler de la película de Pokémon: La historia de todos. En el mismo se ha revelado un nuevo Pokémon llamado Zeraora, el último singular de la séptima generación. Zeraora es el Pokémon #807 y es de tipo Eléctrico. Clasificado como el Pokémon Tronido cuenta con la habilidad Absorbe Electricidad.
-			</description>
+			<pubDate>Wed, 16 May 2018 12:47:00 EST</pubDate>
+			<title>Zeraora, el Pokémon #807, es oficialmente revelado</title>
+			<description>Durante la transmisión del programa japonés Oha Suta, se ha revelado un nuevo tráiler de la película de Pokémon: La historia de todos. En el mismo se ha revelado un nuevo Pokémon llamado Zeraora, el último singular de la séptima generación. Zeraora es el Pokémon #807 y es de tipo Eléctrico. Clasificado como el Pokémon Tronido cuenta con la habilidad Absorbe Electricidad.</description>
 		</item>
 
 		<item>
-			<title>Revelado el nuevo tráiler de la película “Pokémon: La historia de todos”</title>
 			<link>https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/new2.html</link>
-			<description>
-				 El nuevo tráiler de la próxima película de Pokémon ha sido revelado. La película se titulará “Pokémon: La historia de todos” (みんなの物語). Ash y un nuevo grupo de amigos se encontrará con el Pokémon legendario Lugia. La película parece tener lugar en una gran ciudad en una región desconocida, aunque podría ser Johto debido a la prevalencia de Pokémon de esta región.
-			</description>
+			<pubDate> Sat, 12 May 2018 20:49:00 EST</pubDate>
+			<title>Revelado el nuevo tráiler de la película “Pokémon: La historia de todos”</title>
+			<description>El nuevo tráiler de la próxima película de Pokémon ha sido revelado. La película se titulará “Pokémon: La historia de todos” (みんなの物語). Ash y un nuevo grupo de amigos se encontrará con el Pokémon legendario Lugia. La película parece tener lugar en una gran ciudad en una región desconocida, aunque podría ser Johto debido a la prevalencia de Pokémon de esta región.</description>
 		</item>
 	</channel>
 
