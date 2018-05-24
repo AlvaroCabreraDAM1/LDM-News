@@ -6,8 +6,9 @@
         <meta charset="utf-8">
 
         <!-- Page Info -->
-        <title>Pokemon Tera News</title>
-        <link rel="icon" href="img/latios.ico">
+        <title>Pokémon Tera News</title>
+		<meta name="description" content="En Pokémon Tera encontrarás las más recientes noticias del mundo de Pokémon, además de guías, trucos, buscador de batallas y más.">
+        <link rel="icon" href="img/icon.ico">
 
 		<!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,14 +26,17 @@
 
         <!-- Page CSS & JavaScript -->
         <link rel="stylesheet" href="css/news.css"/>
-		<script src="js/news.js"></script>
+        <script src="js/news.js"></script>
+		
+		<!-- RSS -->
+		<link rel="alternate" type="application/rss+xml" title="rss" href="rss/rss.xml">
 		
 		<!-- Facebook -->
-		<meta property="og:site_name" content="Pokemon Tera: Pokemon news">
+		<meta property="og:site_name" content="Pokémon Tera: Pokemon news">
 		<meta property="og:url" content="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/news.html">
 		<meta property="og:title" content="Pokemon Tera">
 		<meta property="og:image" content="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/portada.png">
-		<meta property="og:description" content="En Pokemon Tera encontrarás las más recientes noticias del mundo de Pokémon, además de guías, trucos, buscador de batallas y más.">
+		<meta property="og:description" content="En Pokémon Tera encontrarás las más recientes noticias del mundo de Pokémon, además de guías, trucos, buscador de batallas y más.">
 
     </head>
 	
@@ -46,7 +50,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-default" id="navbar">
             <div class="navbar-header">
-                <a class="navbar-brand" id="title" href="news.html">Pokemon Tera</a>
+                <h1><a class="navbar-brand" id="title" href="news.html">Pokémon Tera</a></h1>
             </div>
             <ul class="nav navbar-nav">
 				<li><a href="news.html"><i class="fas fa-home icon" id="home"></i></a></li>
@@ -61,9 +65,9 @@
 
 			<!-- New 1 -->
 			<div class="row new">
-				<h1 id="newTitle"><b>
+				<h2 id="newTitle"><b>
 					Revelado el nuevo tráiler de la película “Pokémon: La historia de todos”
-				</b></h1>
+				</b></h2>
 				<div id="newContent">
 					
 					<br>
@@ -83,22 +87,48 @@
 					<h3> Trailer oficial de la pelicula: </h3>
 					
 					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/zE6Gwz00rII"></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/CQXZHJt0ltg"></iframe>
 					</div>
 					
 					<h3> Splashart oficial de la pelicula: </h3>
 					
-					<img src="img/new2/splashart.png" class="img-responsive center-block" alt="Zeraora">
+					<img src="img/new2/splashart.png" class="img-responsive center-block" data-toggle="modal" data-target="#newModal" alt="Splashart">
 					
 					<br>
 					
 				</div>
-			</div>	
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="newModal" role="dialog">
+				<div class="modal-dialog">
+    
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Imagen de la noticia:</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/new2/splashart.png" class="img-rounded img-responsive center-block" alt=""/>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+      
+				</div>
+			</div>			
 			
 		</div>
 		
 		<!-- Ads -->
         <iframe id="add" src="adds.html"></iframe>
+		
+		<!-- Ads Smartphone -->
+		<div id="addMContainer">
+			<iframe id="addM" class="center-block" src="addsM.html"></iframe>
+		</div>
 
 	</body>
 	

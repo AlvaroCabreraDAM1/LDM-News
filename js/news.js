@@ -35,14 +35,13 @@ function addrow(json) {
 			'</div>' +	
             '<div class="newDescription">' + 
 				'<p class="newTitle"><b>' + 
-					item.title + 
+					'<h2><a href="">' + 
+						item.title +
+					'</a></h2>' + 
 				'</b></p>' +
 				'<p align="justify">' + 
 					item.description + 
 				'</p>' + 
-				'<a href="">' + 
-					'Leer mas...' + 
-				'</a>' + 
 			'</div>' + 
 		'</div>');
     })

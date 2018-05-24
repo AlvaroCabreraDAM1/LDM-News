@@ -5,7 +5,13 @@ html, body {
     margin: 0;
     background-color: rgba(104, 160, 96, 255);
 	text-align:justify;
-	overflow-x: hidden;
+}
+body {
+	overflow-x:hidden;
+}
+a:link, a:hover a, a:visited, a:active {
+	color: black;
+	text-decoration: none;	
 }
 #jumbotron {	
     height: 250px;
@@ -20,7 +26,7 @@ html, body {
 }
 .navbar {
 	width: 100%;
-	background: linear-gradient(rgba(104, 160, 96, 255) 80%, rgba(104, 160, 96, 0));
+	background: rgba(104, 160, 96, 255);
     border: 0;
     border-radius: 0;
 	margin-bottom: 0;
@@ -29,7 +35,8 @@ html, body {
     font-family: Indie Flower;
     font-style: oblique;
     color: rgba(160, 224, 88, 255);
-    font-size: 300%;	
+    font-size: 150%;
+	padding: 0;	
 }
 .nav {	
     float: right;	
@@ -64,6 +71,7 @@ html, body {
 	left: 0px;
 	right: 0px;
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
 }
 /* Principal */
 .tooltip > .tooltip-inner {
@@ -171,6 +179,7 @@ html, body {
 		padding-right: 1%;
 		width: 40px;
 		right: 0px;
+		top: 180px;
 	}
 	#home {
 		display: block;
