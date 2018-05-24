@@ -18,7 +18,7 @@ function load() {
         }); 
 		loaded++;
 		if (loaded > 2) {
-			$("#loadButton").hide();
+			$("#loadButton").html("No hay más noticias.");
 		}
     }
 };
