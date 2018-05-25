@@ -15,6 +15,7 @@ Autor de la página: Alvaro Cabrera Fernandez
 - Publicidad pensada para smartphones y tablets, con un tamaño de 320px de alto y 100px de alto.
 - Barra de navegación con acceso al Twitter de la página, comunidad de Discord y repositorio de Github.
 - Acceso rapido desde cualquier pagina a la pagina principal.
+- Al compartir cada página en redes sociales se muestra el titulo de la noticia, su imagen y el enlace para ir a leerla.
 
 ## Contenido
 
