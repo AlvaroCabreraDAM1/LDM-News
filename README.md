@@ -16,7 +16,7 @@ Autor de la página: Alvaro Cabrera Fernandez
 - Barra de navegación con acceso al Twitter de la página, comunidad de Discord y repositorio de Github.
 - Acceso rapido desde cualquier pagina a la pagina principal.
 
-## Contenido a tener en cuenta
+## Contenido
 
 - 5 Archivos .html; uno para la pagina principal, dos para las primeras noticias y dos para los anuncios. (Uno para movil y otro para pc)
 - 1 Archivo  .css para dar las apariencia a la página. Ee usa el mismo para las 3 páginas visitables por el usuario.
