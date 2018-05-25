@@ -27,5 +27,27 @@ Autor de la página: Alvaro Cabrera Fernandez
 
 ## Bocetos
 
-<b>Boceto original version PC:</b>
+<b>Boceto original versión para PC</b>
+
 <img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/sketchs/sketchPC.png" />
+
+<b>Primera versión para PC</b>
+
+<img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/desingPC1.png" />
+
+<b>Segunda versión para PC</b>
+
+<img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/desingPC2.png" />
+
+<b>Versión final para PC</b>
+
+<img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/desingPCF.png" />
+
+<b>Boceto original versión para Smartphone</b>
+
+<img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/sketchs/sketchSmartphone.png" />
+
+<b>Versión final para PC</b>
+
+<img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/desingSmartphoneF.png" />
+
