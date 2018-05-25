@@ -7,7 +7,7 @@ Autor de la página: Alvaro Cabrera Fernandez
 [Link de la primera noticia.](https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/new1.html) <br>
 [Link de la segunda noticia.](https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/new2.html)
 
-##Features
+## Features
 
 - Cargar noticias a partir de un archivo .json, mediante un boton de carga, o bien, llevando el scroll lateral hacia abajo.
 - Un switch que permite alternar entre el boton para cargar y la carga automatica mediante scroll. (Cuando una esta activa la otra no)
@@ -16,7 +16,7 @@ Autor de la página: Alvaro Cabrera Fernandez
 - Barra de navegación con acceso al Twitter de la página, comunidad de Discord y repositorio de Github.
 - Acceso rapido desde cualquier pagina a la pagina principal.
 
-##Contenido a tener en cuenta
+## Contenido a tener en cuenta
 
 - 5 Archivos .html; uno para la pagina principal, dos para las primeras noticias y dos para los anuncios. (Uno para movil y otro para pc)
 - 1 Archivo  .css para dar las apariencia a la página. Ee usa el mismo para las 3 páginas visitables por el usuario.
@@ -25,4 +25,7 @@ Autor de la página: Alvaro Cabrera Fernandez
 - 1 Archivo rss.xml para compartir la informacion de las noticias en las redes sociales.
 - 2 Imagenes para cada noticia, una de tamaño mediano para las previw y otra con el doble de tamaño que se muestra en una ventana modal al pulsar sobre una imagen.
 
-##Bocetos
+## Bocetos
+
+<b>Boceto original version PC:</b>
+<img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/sketchs/sketchPC.png" />
