@@ -47,7 +47,11 @@ Autor de la página: Alvaro Cabrera Fernandez
 
 <img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/sketchs/sketchSmartphone.png" />
 
-<b>Versión final para PC</b>
+<b>Versión final para smartphone</b>
 
 <img src="https://rawgit.com/AlvaroCabreraDAM1/LDM-News/master/img/desings/desingSmartphoneF.png" />
 
+## Cambios en los bocetos
+
+- Cada noticia pasa a tener su propia fecha de publicación, en lugar de la fecha seguida de todas las noticias de ese dia, ya que ademas se añade la hora de publicación de cada noticia.
+- El titulo y la barra de navegación ocupan el 100% del ancho de la pantalla. Ademas no estan fijas en la parte superior como estaba pensado. He tomado esta decisión par integrar ambos objetos con el resto de la página y por que quitaban demasiado espacio al usuario. 
