@@ -19,6 +19,7 @@ function load() {
 		loaded++;
 		if (loaded > 2) {
 			$("#loadButton").html("No hay más noticias.");
+			$("#loadButton").show();
 		}
     }
 };
